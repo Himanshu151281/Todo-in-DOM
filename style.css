@@ -1,0 +1,52 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100vw; */
+    height: 100vh;
+}
+
+.content{
+    border: 2px solid black;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    background-color: yellow;
+    border-radius: 0.5rem;
+    box-shadow: 6px 6px rgb(187, 187, 66);
+}
+
+.heading{
+    padding-left: 2rem;
+}
+
+.form{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.task{
+    margin-bottom: 2rem;
+}
+
+.addBtn{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 4px;
+    margin-left: 0.4rem;
+}
+
+.addBtn:hover{
+    color: yellow;
+}
+
+del{
+    background-color: transparent;
+    border: none;
+}
+
+.task-item{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+}
